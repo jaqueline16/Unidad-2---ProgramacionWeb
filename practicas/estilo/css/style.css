@@ -1,0 +1,137 @@
+h5{
+	color: #0D057A;
+	font-family: Berlin Sans FB; 
+}
+
+p{
+	font-family: Arial; 
+	align-content: justify; 
+}
+
+h1{
+	color: #414146;
+	background-color: #ffffff;
+	display: inline-block;
+	padding: 30px;
+	font-family: Berlin Sans FB;
+	text-align: center;
+	border-radius: 15%;
+	border: 5px inset gray;
+	margin-left: 35%; 
+}
+
+h2{
+	color: #0D057A;
+	font-family: Times New Roman; 
+}
+
+
+#header{
+ display: grid;
+ grid-template-columns: 2fr 5fr;
+ background: #ffffff;
+ color: white;
+
+}
+#ui{
+ display: grid;
+ grid-template-columns: 0.2fr 0.5fr;
+}
+.skills{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+#ent{
+ margin-top: 0px;
+}
+#space{
+ margin-left: 30px;
+
+}
+#progress-bar{
+ background: #CDCDCF;
+ height: 10px;
+ margin-top: 5px;
+ width: 100px;
+}
+#progress{
+ background: black;
+ height: 10px;
+ width: 80px;
+}
+.topM{
+ margin-top: 20px;
+ margin-bottom: 10px;
+
+}
+#contacts{
+ background: #CDCDCF;
+ padding: 10px;
+}
+
+#exp1{
+ margin-right: 20px;
+ display: grid;
+ grid-template-columns: 1fr 2fr 4fr;
+}
+p{
+ text-align: justify;
+}
+#head{
+ font-weight: bold;
+}
+svg{
+ height: 1em;
+ margin-left: 40px;
+}
+#left-mrgm{
+ margin-left: 40px;
+ font-weight: bold;
+}
+.box{
+ height: 20px;
+ width: 20px;
+ background: black;
+}
+#image{
+ height: 150px;
+ width: 150px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ margin-left: 20px;
+}
+#name{
+ letter-spacing: 0.2em;
+ font-weight: bold;
+ margin-top: 20px;
+
+}
+#web{
+ letter-spacing: 0.2em;
+ margin-top: 30px;
+}
+#underline{
+ width: 350px;
+ height: 7px;
+ margin-top: 20px;
+ background: #CECED0;
+}
+#exp{
+ background: #CDCDCF;
+ padding: 10px;
+}
+#wrapper{
+ padding: 0px;
+ margin-top: 50px;
+ margin-left: 17%;
+}
+
+
+#idiomas{
+ background: #CDCDCF;
+ padding: 10px;
+}
+
+#p1{
+ text-align: center;
+}

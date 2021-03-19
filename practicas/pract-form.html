@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Práctica 7 | Formulario </title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+<meta name="descripcion" content="Pácticas de la unidad 2 de la materia de programación web">
+<meta name="author" content="Jaqueline GL">
+<meta name="keywords" content="Programación web">
+<link rel="stylesheet" type="text/css" href="estilo/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="estilo/css/style.css">
+</head>
+
+<body background="imagenes/fondo3.jpg">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Index</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="Tarea 1.html"> Tarea 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="cv.html">Currículum Vitae</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="linea-tiempo.html">Línea del tiempo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="pract-grid.html">Collage de fotos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="pract-form.html">Formulario</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="row">
+  <div  class="col-sm-12">
+  </div>
+    <div class="col-md-4 offset-sm-4" >
+    <br><br><br>  
+      <h2 align="center">Formulario datos de usuario</h2>
+        
+      <hr>
+
+      <form class="formulario-datos-usuario" action="index.html" method="get" target="_blank">
+        <div class="mb-3">
+          <label for="nombre">Nombre</label>
+          <input  class="form-control" type="text" name="nombre" value="" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="apellidos">Apellidos</label>
+          <input  class="form-control" type="text" name="apellidos" value="" required>
+        </div>
+
+         <div class="mb-3">
+          <label for="num-tel">Número telefónico</label>
+          <input  class="form-control" type="tel" name="numero-telefonico" value="" pattern="[0-9]{10}" required>
+        </div>
+
+         <div class="mb-3">
+          <label for="email" class="form-label">Dirección de correo electrónico</label>
+          <input type="email" class="form-control" name="direccion-correo-electronico" value="" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="contraseña" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" name="contraseña" placeholder="Establece una contraseña para tu perfil" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="edad">Edad</label>
+          <input  class="form-control" type="number" name="edad" value="" min="1" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="sexo">Sexo</label>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="sexo" value="masculino">
+            <label class="form-check-label" for="masculino">
+            Masculino
+            </label>
+            </div>
+            <div class="form-check">
+            <input class="form-check-input" type="radio" name="sexo" value="femenino">
+            <label class="form-check-label" for="femenino">
+              Femenino
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="sexo" value="otro">
+            <label class="form-check-label" for="otro">
+             Otro
+            </label>
+          </div>
+        </div>
+   
+        <div class="mb-3">
+          <label for="estado">Estado al que perteneces</label>
+          <select class="form-select" name= "estado"  aria-label="Default select example">
+            <option selected>Selecciona el estado</option>
+            <option value="Aguascalientes">Aguascalientes</option>
+            <option value="Baja California">Baja California</option>
+            <option value="Baja California Sur">Baja California Sur</option>
+            <option value="Campeche">Campeche</option>
+            <option value="Chiapas">Chiapas</option>
+            <option value="Chihuahua">Chihuahua</option>
+            <option value="Coahuila">Coahuila</option>
+            <option value="Colima">Colima</option>
+            <option value="Ciudad de México">Ciudad de México</option>
+            <option value="Durango">Durango</option>
+            <option value="Guanajuato">Guanajuato</option>
+            <option value="Guerrero">Guerrero</option>
+            <option value="Hidalgo">Hidalgo</option>
+            <option value="Jalisco">Jalisco</option>
+            <option value="México">México</option>
+            <option value="Michoacán">Michoacán</option>
+            <option value="Morelos">Morelos</option>
+            <option value="Nayarit">Nayarit</option>
+            <option value="Nuevo León">Nuevo León</option>
+            <option value="Oaxaca">Oaxaca</option>
+             <option value="Puebla">Puebla</option>
+            <option value="Querétaro">Querétaro</option>
+            <option value="Quintana Roo">Quintana Roo</option>
+            <option value="San Luis Potosí">San Luis Potosí</option>
+            <option value="Sinaloa">Sinaloa</option>
+            <option value="Sonora">Sonora</option>
+            <option value="Tabasco">Tabasco</option>
+            <option value="Tamaulipas">Tamaulipas</option>
+            <option value="Tlaxcala">Tlaxcala</option>
+            <option value="Veracruz">Veracruz</option>
+            <option value="Yucatán">Yucatán</option>
+            <option value="Zacatecas">Zacatecas</option>
+          </select>
+          </div>
+
+        <div class="mb-3">
+          <label for="lenguajes" class="form-label">Selecciona los lenguajes de programación que manejas</label>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="lenguajes" value="php">
+            <label class="form-check-label" for="php">
+            PHP
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="lenguajes" value="c++">
+            <label class="form-check-label" for="c++">
+            C++
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="lenguajes" value="c#" >
+            <label class="form-check-label" for="c#">
+            C#
+            </label>
+          </div>
+           <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="lenguajes" value="java">
+            <label class="form-check-label" for="java">
+            Java
+            </label>
+          </div>
+           <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="lenguajes" value="python">
+            <label class="form-check-label" for="python">
+            Python
+            </label>
+          </div>     
+        </div>
+
+        <div class="mb-3">
+          <label for="fecha-registro">Selecciona la fecha de tu registro: </label>
+          <input  class="form-control" type="date" name="fecha-registro" value="" required>
+        </div>
+
+       <div class="mb-3"> 
+        <button  type="submit" class="btn btn-outline-primary"> Enviar </button>
+      </div>
+
+        </form>
+
+    </div>
+
+
+</body>
+</html>
